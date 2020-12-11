@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/angelmtztrc/intro-signup-component-fem/issues"
   },
-  "homepage": "https://github.com/angelmtztrc/intro-signup-component-fem#readme"
+  "homepage": "https://github.com/angelmtztrc/intro-signup-component-fem#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "prettier-plugin-tailwind": "^2.2.8"
+  }
 }
