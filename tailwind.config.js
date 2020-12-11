@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         body: ['Poppins', 'sans-serif']
+      },
+      boxShadow: {
+        primary: '0 8px 0 rgba(0, 0, 0, 0.15)'
       }
     }
   },

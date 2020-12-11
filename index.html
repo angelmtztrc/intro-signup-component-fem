@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./src/images/favicon-32x32.png"
     />
 
     <!-- Fonts -->
@@ -24,7 +24,69 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body class="font-body">
-    <h1>Hello World!</h1>
+    <main class="main flex items-center justify-center w-screen h-screen">
+      <div class="container grid gap-14 grid-cols-2 mx-auto px-16">
+        <div class="flex flex-col justify-center text-white">
+          <h1 class="mb-6 text-4xl font-bold">
+            Learn to code by <br />
+            watching others
+          </h1>
+          <p class="text-base">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="py-4 w-full bg-accent-blue rounded-lg shadow-primary">
+            <p class="text-center text-white font-medium">
+              Try it free 7 days
+              <span class="text-neutral-grayishblue font-normal"
+                >then $20/mo. thereafter</span
+              >
+            </p>
+          </div>
+          <form
+            class="mt-8 p-10 w-full text-neutral-darkblue bg-white rounded-lg shadow-primary"
+          >
+            <div class="space-y-6">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="block px-6 py-4 w-full font-semibold rounded-md focus:outline-none appearance-none transition-shadow duration-300 ease-out focus:ring-neutral-darkblue ring-neutral-grayishblue ring-2"
+              />
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="block px-6 py-4 w-full font-semibold rounded-md focus:outline-none appearance-none transition-shadow duration-300 ease-out focus:ring-neutral-darkblue ring-neutral-grayishblue ring-2"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="block px-6 py-4 w-full font-semibold rounded-md focus:outline-none appearance-none transition-shadow duration-300 ease-out focus:ring-neutral-darkblue ring-neutral-grayishblue ring-2"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                class="block px-6 py-4 w-full font-semibold rounded-md focus:outline-none appearance-none transition-shadow duration-300 ease-out focus:ring-neutral-darkblue ring-neutral-grayishblue ring-2"
+              />
+            </div>
+            <button
+              type="button"
+              class="block mt-6 px-6 py-4 w-full text-white font-medium bg-primary-green rounded-md focus:outline-none uppercase"
+            >
+              Claim your free trial
+            </button>
+            <p class="mt-5 text-center text-neutral-grayishblue text-xs">
+              By clicking the button, you are agreeing to our
+              <span class="text-primary-red font-semibold"
+                >Terms and Services</span
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
     <!-- Learn to code by watching others See how experienced developers solve problems in real-time.
     Watching scripted tutorials is great, but understanding how developers think is invaluable. Try
     it free 7 days then $20/mo. thereafter First Name Last Name Email Address Password Claim your
