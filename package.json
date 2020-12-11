@@ -4,7 +4,7 @@
   "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "npx tailwindcss build tailwind.css -o src/css/main.css"
   },
   "repository": {
     "type": "git",
